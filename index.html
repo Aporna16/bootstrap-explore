@@ -10,30 +10,113 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <!------------------Image slider------------------->
-<div id="carouselIndicators" class="carousel slide">
+    <div id="carouselIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="images/banner/banner2.png">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="images/banner/banner3.png" class="d-block w-100">
+            <div class="carousel-caption text-end">
+                <h1>All Thinks Are <br>Possible If You <br>believe</h1>
+                <p>There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration in some<br> form, by injected humour, or random words</p>
+                <!--<button type="button" class="btn btn-outline-light btn-lg">Contact us</button>-->
+                <button type="button" class="btn btn-primary btn-lg">Contact us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner/banner2.png" class="d-block w-100">
+            <div class="carousel-caption text-end text-black">
+                <h1>All Thinks Are <br>Possible If You <br>believe</h1>
+                <p>There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration in some<br> form, by injected humour, or random words</p>
+                <!--<button type="button" class="btn btn-outline-light btn-lg">Contact us</button>-->
+                <button type="button" class="btn btn-primary btn-lg">Contact us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner/banner1.png" class="d-block w-100">
+            <div class="carousel-caption text-end text-black">
+                <h1>All Thinks Are <br>Possible If You <br>believe</h1>
+                <p>There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration in some<br> form, by injected humour, or random words</p>
+                <!--<button type="button" class="btn btn-outline-light btn-lg">Contact us</button>-->
+                <button type="button" class="btn btn-warning btn-lg">Contact us</button>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-            <img src="images/banner/banner1.png">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
+
+      <!-----------Two column section---------->
+      <div class="container-fluid padding ">
+        <div class="row padding">
+        <div class="col-lg-6">
+            <img src="images/person.png" class="images-fluid">   
         </div>
-        <div class="carousel-item">
-            <img src="images/banner/banner3.png">
+        <div class="col-lg-6">
+            <h3>My failures of <br>previous year</h3>
+            <p>Contrary to popular belief, Lorem Ipsum is not <br> simply random text. It has roots in a piece of <br> classical Latin literature from 45 BC, making it over<br> 2000 years old. Richard McClintock.</p>
+            <ul>
+                <li>Contrary to popular belief, is not simply.</li>
+                <li>Contrary to popular belief.</li>
+                <li>Contrary to popular , is not simply.</li>
+                <li>Contrary to popular belief, is not simply.</li>
+                <li>Contrary to popular simply.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+    <!--------------------icons section----------------->
+    <div id="icons" >
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div>
+                  <h2>My plans</h2>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                      <img src="images/icons/web.png">
+                      <h4>Web Development</h4>
+                      <p>I want to start</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                      <img src="images/icons/smoke.png">
+                      <h4>Smoking Habit</h4>
+                      <p>I want to end</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                      <img src="images/icons/js.png">
+                      <h4>javascript</h4>
+                      <p>I want to learn</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                      <img src="images/icons/ecom.png">
+                      <h4>ecommerce</h4>
+                      <p>I want to develop</p>
+                </div>
+            </div>
         </div>
     </div>
 
-</div>
+    <!---------------Gradient part------------->
+    <div class="container-inner">
+      <div class="container-fluid padding">
+        <div class="col-sm-6 col-md-3">
+          <img src="images/watch.png" alt="">
+          <h3>Alwayes</h3>
+        </div>
+      </div>
+    </div>
 
-
-
-    <!--Bootstrap js file-->
+    <!-------------Footer part--------------->
+    <!----------------js link---------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
